@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comic Clash: Across Multiverses</title>
+  <link rel="stylesheet" href="game.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="images/icon.jpg">
+</head>
+<body>
+  <div class="container" >
+    <div id="gameContainer">
+      <h1>Guess the Comic Character</h1>
+    <div id="score">Score: 0</div>
+    <p id="question">Loading question...</p>
+    <div class="options" id="options-list">
+      <button class="option">Option 1</button>
+      <button class="option">Option 2</button>
+      <button class="option">Option 3</button>
+    </div>
+    <p id="feedback"></p><br>
+
+
+    <button id="finishBtn" onclick="finishGame()">End Game</button>
+    <div>
+
+    <div id="finalScoreContainer" style="display: none;">
+      <h2 id="finalScoreText"></h2>
+      <p id="finalMessage"></p>
+    </div>
+
+  </div>
+
+  
+
+
+  <script src="game.js"></script>
+</body>
+</html>
